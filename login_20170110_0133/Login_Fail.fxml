@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane prefHeight="130.0" prefWidth="250.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" >
+   <center>
+      <AnchorPane prefHeight="130.0" prefWidth="250.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="7.0" layoutY="31.0" text="ID 혹은 Password가 일치하지 않습니다.">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Button layoutX="95.0" layoutY="76.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="60.0" text="확인" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

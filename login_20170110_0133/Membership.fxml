@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<AnchorPane fx:id="Membership" prefHeight="580.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login_20170110_0133.Membership_Controller">
+   <children>
+      <Label alignment="CENTER" layoutX="50.0" layoutY="100.0" prefWidth="180.0" style="-fx-border-color: grey;" text="ID (아이디)" />
+      <TextField layoutX="250.0" layoutY="96.0" />
+      <Button fx:id="ID_Check" layoutX="412.0" layoutY="96.0" mnemonicParsing="false" text="ID Check" />
+      <Label alignment="CENTER" layoutX="50.0" layoutY="150.0" prefWidth="180.0" style="-fx-border-color: grey;" text="Password (비밀번호)" />
+      <PasswordField layoutX="250.0" layoutY="146.0" />
+      <Label alignment="CENTER" layoutX="50.0" layoutY="200.0" prefWidth="180.0" style="-fx-border-color: grey;" text="User Name (사용자 이름)" />
+      <TextField layoutX="250.0" layoutY="196.0" />
+      <Label alignment="CENTER" layoutX="50.0" layoutY="250.0" prefWidth="180.0" style="-fx-border-color: grey;" text="Company Name (회사 이름)" />
+      <TextField layoutX="250.0" layoutY="245.0" />
+      <Label alignment="CENTER" layoutX="50.0" layoutY="300.0" prefWidth="180.0" style="-fx-border-color: grey;" text="Business Number (사업자 번호)" />
+      <TextField layoutX="250.0" layoutY="296.0" />
+      <Label alignment="CENTER" layoutX="50.0" layoutY="350.0" prefHeight="15.0" prefWidth="180.0" style="-fx-border-color: grey;" text="Company Address (회사 주소)" />
+      <TextField layoutX="250.0" layoutY="346.0" prefHeight="23.0" prefWidth="300.0" />
+      <Label alignment="CENTER" layoutX="50.0" layoutY="400.0" prefWidth="180.0" style="-fx-border-color: grey;" text="Development Name (부서 이름)" />
+      <TextField layoutX="250.0" layoutY="396.0" />
+      <Label alignment="CENTER" layoutX="50.0" layoutY="450.0" prefHeight="15.0" prefWidth="180.0" style="-fx-border-color: grey;" text="Position (직책)" />
+      <TextField layoutX="249.0" layoutY="446.0" />
+      <Label layoutX="90.0" layoutY="14.0" text="Kubera ERP Solution 회원가입">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="250.0" layoutY="122.0" text="영어, (영어 + 숫자) 사용가능" />
+      <Label layoutX="430.0" layoutY="122.0" text="중복 확인 값 텍스트 출력" visible="false" />
+      <Label layoutX="250.0" layoutY="175.0" text="영어, 숫자 혼합 사용" />
+      <Label layoutX="415.0" layoutY="150.0" text="패스워드 입력 잘 했나 확인" />
+      <Label layoutX="251.0" layoutY="325.0" text="&quot;-&quot; 포함해서 입력" />
+      <Button fx:id="btnJoin" layoutX="350.0" layoutY="500.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="90.0" text="가입">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnMembershipExit" layoutX="150.0" layoutY="500.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="90.0" text="취소">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
